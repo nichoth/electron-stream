@@ -1,9 +1,10 @@
 {
-  "name": "electron-stream",
+  "name": "@nichoth/electron-stream",
   "version": "11.0.2",
   "description": "Simple streaming wrapper around electron",
   "scripts": {
-    "test": "make test"
+    "test": "make test",
+    "postversion": "git push --follow-tags && npm publish"
   },
   "repository": "juliangruber/electron-stream",
   "devDependencies": {
